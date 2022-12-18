@@ -1,0 +1,35 @@
+name: mercenaries_pda
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.5 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+dev_dependencies:
+  build_runner: ^2.3.2
+  flutter_launcher_icons: ^0.11.0
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+  hive_generator: ^2.0.0
+
+flutter:
+  assets:
+    - assets/
+    - assets/icons/
+    - assets/maps/
+  uses-material-design: true
+
+flutter_icons:
+  android: "launcher_icon"
+  image_path: "assets/icon.png"
+  min_sdk_android: 21
