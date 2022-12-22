@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
 
@@ -109,6 +111,7 @@ class _HomeState extends State<Home> {
                   setState(() {
                     element.isCollected = !element.isCollected;
                     element.save();
+                    log(element.identifier);
                   });
                 },
                 padding: EdgeInsets.zero,

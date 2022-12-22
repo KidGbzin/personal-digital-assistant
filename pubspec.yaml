@@ -26,6 +26,7 @@ flutter:
   assets:
     - assets/
     - assets/icons/
+    - assets/images/
     - assets/maps/
   uses-material-design: true
 
